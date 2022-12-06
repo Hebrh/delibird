@@ -13,5 +13,5 @@ PyMySQL==1.0.2
 setuptools==65.6.3
 magicbag==0.0.19
 psutil>=5.8.0
-delibird~=0.0.6
+# delibird~=0.0.6
 types-contextvars==2.4.7

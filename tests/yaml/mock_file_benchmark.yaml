@@ -1,0 +1,169 @@
+# mock data workflow
+
+# workflow lists
+mocks:
+  - name: "mock-to-dir"
+    row-number: 10000000
+    direction: "directory" # directory ,file or  table
+    directory: "./datasets/mock_data/mock_dir_one"
+    columns: {
+                # stock code as a type
+                "sec_code": "code",  # "600001"
+                "v_date": "date",  # 2022-08-24
+                "close": "float",  # 16.87
+                "open": "float",  # 16.65
+                "high": "float",  # 16.95
+                "low": "float",  # 16.55
+                "hold": "decimal(10,5)",  # 123.25515
+                "time": "timestample(unit=s,tz=Asia/Shanghai)",
+                "volume": "int",  # 1530231
+                "amount": "int",  # 2571196416
+                "memo":"string", # hello
+                "sec_code2": "code",  # "600001"
+                "v_date2": "date",  # 2022-08-24
+                "close2": "float",  # 16.87
+                "open2": "float",  # 16.65
+                "high2": "float",  # 16.95
+                "low2": "float",  # 16.55
+                "hold2": "decimal(10,5)",  # 123.25515
+                "time2": "timestample(unit=s,tz=Asia/Shanghai)",
+                "volume2": "int",  # 1530231
+                "amount2": "int",  # 2571196416
+                "memo2":"string", # hello
+                "sec_code3": "code",  # "600001"
+                "v_date3": "date",  # 2022-08-24
+                "close3": "float",  # 16.87
+                "open3": "float",  # 16.65
+                "high3": "float",  # 16.95
+                "low3": "float",  # 16.55
+                "hold3": "decimal(10,5)",  # 123.25515
+                "time3": "timestample(unit=s,tz=Asia/Shanghai)",
+                "volume3": "int",  # 1530231
+                "amount3": "int",  # 2571196416
+                "memo3":"string", # hello
+            }
+  
+  - name: "mock-to-dire"
+    row-number: 20000000
+    direction: "directory" # directory ,file or  table
+    directory: "./datasets/mock_data/mock_dir_two"
+    columns: {
+                # stock code as a type
+                "sec_code": "code",  # "600001"
+                "v_date": "date",  # 2022-08-24
+                "close": "float",  # 16.87
+                "open": "float",  # 16.65
+                "high": "float",  # 16.95
+                "low": "float",  # 16.55
+                "hold": "decimal(10,5)",  # 123.25515
+                "time": "timestample(unit=s,tz=Asia/Shanghai)",
+                "volume": "int",  # 1530231
+                "amount": "int",  # 2571196416
+                "memo":"string", # hello
+                "sec_code2": "code",  # "600001"
+                "v_date2": "date",  # 2022-08-24
+                "close2": "float",  # 16.87
+                "open2": "float",  # 16.65
+                "high2": "float",  # 16.95
+                "low2": "float",  # 16.55
+                "hold2": "decimal(10,5)",  # 123.25515
+                "time2": "timestample(unit=s,tz=Asia/Shanghai)",
+                "volume2": "int",  # 1530231
+                "amount2": "int",  # 2571196416
+                "memo2":"string", # hello
+                "sec_code3": "code",  # "600001"
+                "v_date3": "date",  # 2022-08-24
+                "close3": "float",  # 16.87
+                "open3": "float",  # 16.65
+                "high3": "float",  # 16.95
+                "low3": "float",  # 16.55
+                "hold3": "decimal(10,5)",  # 123.25515
+                "time3": "timestample(unit=s,tz=Asia/Shanghai)",
+                "volume3": "int",  # 1530231
+                "amount3": "int",  # 2571196416
+                "memo3":"string", # hello
+            }
+  
+  - name: "mock-to-direc"
+    row-number: 30000000
+    direction: "directory" # directory ,file or  table
+    directory: "./datasets/mock_data/mock_dir_three"
+    columns: {
+                # stock code as a type
+                "sec_code": "code",  # "600001"
+                "v_date": "date",  # 2022-08-24
+                "close": "float",  # 16.87
+                "open": "float",  # 16.65
+                "high": "float",  # 16.95
+                "low": "float",  # 16.55
+                "hold": "decimal(10,5)",  # 123.25515
+                "time": "timestample(unit=s,tz=Asia/Shanghai)",
+                "volume": "int",  # 1530231
+                "amount": "int",  # 2571196416
+                "memo":"string", # hello
+                "sec_code2": "code",  # "600001"
+                "v_date2": "date",  # 2022-08-24
+                "close2": "float",  # 16.87
+                "open2": "float",  # 16.65
+                "high2": "float",  # 16.95
+                "low2": "float",  # 16.55
+                "hold2": "decimal(10,5)",  # 123.25515
+                "time2": "timestample(unit=s,tz=Asia/Shanghai)",
+                "volume2": "int",  # 1530231
+                "amount2": "int",  # 2571196416
+                "memo2":"string", # hello
+                "sec_code3": "code",  # "600001"
+                "v_date3": "date",  # 2022-08-24
+                "close3": "float",  # 16.87
+                "open3": "float",  # 16.65
+                "high3": "float",  # 16.95
+                "low3": "float",  # 16.55
+                "hold3": "decimal(10,5)",  # 123.25515
+                "time3": "timestample(unit=s,tz=Asia/Shanghai)",
+                "volume3": "int",  # 1530231
+                "amount3": "int",  # 2571196416
+                "memo3":"string", # hello
+            }
+  
+  - name: "mock-to-direct"
+    row-number: 50000000
+    direction: "directory" # directory ,file or  table
+    directory: "./datasets/mock_data/mock_dir_five"
+    columns: {
+                # stock code as a type
+                "sec_code": "code",  # "600001"
+                "v_date": "date",  # 2022-08-24
+                "close": "float",  # 16.87
+                "open": "float",  # 16.65
+                "high": "float",  # 16.95
+                "low": "float",  # 16.55
+                "hold": "decimal(10,5)",  # 123.25515
+                "time": "timestample(unit=s,tz=Asia/Shanghai)",
+                "volume": "int",  # 1530231
+                "amount": "int",  # 2571196416
+                "memo":"string", # hello
+                "sec_code2": "code",  # "600001"
+                "v_date2": "date",  # 2022-08-24
+                "close2": "float",  # 16.87
+                "open2": "float",  # 16.65
+                "high2": "float",  # 16.95
+                "low2": "float",  # 16.55
+                "hold2": "decimal(10,5)",  # 123.25515
+                "time2": "timestample(unit=s,tz=Asia/Shanghai)",
+                "volume2": "int",  # 1530231
+                "amount2": "int",  # 2571196416
+                "memo2":"string", # hello
+                "sec_code3": "code",  # "600001"
+                "v_date3": "date",  # 2022-08-24
+                "close3": "float",  # 16.87
+                "open3": "float",  # 16.65
+                "high3": "float",  # 16.95
+                "low3": "float",  # 16.55
+                "hold3": "decimal(10,5)",  # 123.25515
+                "time3": "timestample(unit=s,tz=Asia/Shanghai)",
+                "volume3": "int",  # 1530231
+                "amount3": "int",  # 2571196416
+                "memo3":"string", # hello
+            }
+
+
